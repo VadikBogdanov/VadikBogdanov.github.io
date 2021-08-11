@@ -1,2 +1,2 @@
-# VadikBogdanov.github.io
+# Богданов Вадим
 my first site
