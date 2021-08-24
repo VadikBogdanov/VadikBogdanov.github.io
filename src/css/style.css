@@ -89,6 +89,8 @@ nav{
 }
 .i_be_able ul{
     margin-left: 417px;
+    height: 520px;
+    width: 100%;
 }
 .i_be_able ul li{
     float: left;
@@ -105,9 +107,73 @@ nav{
     font-weight: bold;
 }
 .cases{
+height: 258px;
+width: 100%;
+    float: left;
     text-align: center;
-    font-size: 34px;
+    padding-top: 50px;
+    background: url(../IMG/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.png) 918px 162px  no-repeat,url(../IMG/%D0%A1%D0%BB%D0%BE%D0%B9%202.jpg);
+}
+.cases>h3{
+    margin: 80px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #384354;   
+}
+.cases p{
+font-weight: bold;
+    color: #384354;
+}
+.client{
+    height: 1000px;
+    width: 100%;
+    float: left;
+    background: url(../IMG/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png) no-repeat;
+   padding-left: 388px;
+    padding-top: 625px;
+}
+.client>h4{
+    font-size: 25px;
+    color: #959ba4;
+    font-weight: bold;
+}
+.client h6{
+    color:black;
+}
+.client>h5{
+    font-size: 26px;
+    padding-left: 360px;
     font-weight: bold;
     color: #384354;
-    
+}
+.client>h3{
+    padding-left: 360px;
+text-align: left;
+}
+.menu1{
+    height: 1000px;
+    width: 100%;
+    background: color #fff;
+    float: left;
+    background: url(../IMG/%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%BE%D0%B4%D0%B8%D1%82%D0%BE%D0%B3%D0%B0.png) 455px 740px no-repeat;
+}
+.menu1>h2{
+    text-align: center;
+    font-size: 42px;
+}
+.menu1 select{
+    font-size: 30px;
+    border: 3px solid #384354;
+    background-color: gray;
+    margin: 15px 472px;
+    padding-left: 472px;
+}
+.menu1 h3{
+    font-size: 45px;
+    margin: 55px 495px;
+}
+.menu1>h4{
+    float: left;
+    font-size: 20px;
+   padding top: 100px;
 }
