@@ -37,7 +37,6 @@ nav{
     color:white;
     font-size: 28px;
     line-height: 60px;
-    padding: 0px 390px; 
     float: left; 
     -webkit-animation: comming 2s ease;
     -o-animation: comming 2s ease;
@@ -45,15 +44,14 @@ nav{
 }
 .menu{
     float: left;
-    padding left: 430px;   
 }
 .menu ul li{
     float: left;
     color: white;
     line-height: 60px;
     margin-right: 40px;
-    font-size: 16px;
-    text-transform: uppercase; 
+    font-size: 14px;
+    text-transform: uppercase;  
     opacity: 0;
     -webkit-animation: topshift 0.4s ease forwards ;
     -o-animation: topshift 0.4s ease forwards ;
@@ -81,17 +79,15 @@ nav{
 }
 .title__container{
     float:left;
-    padding-left: 265px;
-    padding-top: 428px;
     color: #2c384a;
     text-align: center;
-    -webkit-animation: block2 1.4s ease forwards ;
+  /*  -webkit-animation: block2 1.4s ease forwards ;
     -o-animation: block2 1.4s ease forwards ;
     animation: block2 1.4s ease forwards ;
     -webkit-animation-delay: 2s;
     -o-animation-delay: 2s ;
     animation-delay: 2s ; 
-    opacity: 0;
+    opacity: 0;*/
 }
 .title__container h1{
     font-size: 60px;
@@ -331,6 +327,8 @@ opacity: 0;
 padding-left: 40%;
     padding-top: 13%;
     color: #848890;
+}
+.reviews1{
     -webkit-animation: reviews 200ms;
     -o-animation: reviews 200ms ;
     animation: reviews 200ms ;
@@ -417,6 +415,7 @@ padding-top: 105px;
     color: white;
     transform: scale(1);
     display: inline-block;
+    text-decoration: none;
 }
 .menu li a:visited{
     color: white;
@@ -496,4 +495,9 @@ to{
             opacity: 1;
             margin-right: 0px;
         }
+    }
+    .white-btn{
+        color: white;
+    }
+        
     }

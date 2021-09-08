@@ -8,7 +8,8 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="this is my first page">
     <title>Андрей Браун веб разработчик</title>
-        <link rel="stylesheet" href="css/reset.css">
+       <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,28 +18,48 @@
 </div>
     <header>
         <nav>
-            <div class="logo">Андрей Браун</div>
-            <div class="menu">
+           <div class="container">
+               <div class="row">
+                   <div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div></div>
+                   <div class="col-xxl-6 col-xl-7 col-lg-8 offset-xxl-2 offset-xl-2 offset-lg-1 d-none d-lg-block ">
+                   <div class="menu">
                 <ul>
                     <li><a href="#">обo мне</a></li>
                     <li><a href="#">услуги</a></li>
                     <li><a href="#">кейсы</a></li>
                                    <li><a href="#">прайс</a></li>
                                    <li><a href="#">отзывы</a></li>
-                                   <li><a href="#">контакты</a></li>
+                                   <li><a href="#">контакты</a></li></ul></div>
+               </div>
+               <div class="col-5 d-flex d-lg-none flex-column justify-content-center align-items-end"><div class="dropdown">
+  <a class="btn btn-outline-secondary dropdown-toggle white-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+    навигация
+  </a>
 
-                </ul>
-            </div>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                   <li><a href="#">обo мне</a></li>
+                    <li><a class="dropdown-item" href="#">услуги</a></li>
+                    <li><a class="dropdown-item" href="#">кейсы</a></li>
+                                   <li><a class="dropdown-item" href="#">прайс</a></li>
+                                   <li><a class="dropdown-item" href="#">отзывы</a></li>
+                                   <li><a class="dropdown-item" href="#">контакты</a></li></ul></div>
+    
+</div></div>
+           </div>          
         </nav>
     </header>
     <section class="main">
+      <div class="section"><div class="container h-100  ">
+      <div class="row align-items-center h-100 w-100">
+      <div class="col-lg-6">
        <div class="title__container">
         <h1>Привет <br> я Андрей Браун</h1>
         <h4>   Фулл стек веб-разработчик</h4>
         <input type="button" value="обо мне">
         <input type="button" value="мои работы">
 
-    </div></section>
+    </div></div></div></div></div>
+       </section>
     <div class="about_me">
         <h2>
             ОБО МНЕ
@@ -128,7 +149,7 @@
             </div>
             <div class="reviews">
                 <h2>ОТЗЫВЫ</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illo tempora, aliquam dolorum expedita, velit assumenda officia <br> error nemo voluptatum!</p>
+                <p class="reviews1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas illo tempora, aliquam dolorum expedita, velit assumenda officia <br> error nemo voluptatum!</p>
                 <h4>
                     Михаил, Ген директор ПАО ГазПром
                 </h4>
@@ -163,6 +184,8 @@
                     
                     </form>
 >
-          <script src="Js(javascript)/preloader.js"></script>        
+          <script src="Js(javascript)/preloader.js"></script>
+               <script src="Js(javascript)/bootstrap.bundle.min.js"></script>
+                
             </div>
     </html>
